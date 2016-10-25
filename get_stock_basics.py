@@ -7,6 +7,25 @@ Created on 2016-10-25
 @contact: lianghongle@163.com
 """
 
+"""
+code,代码
+name,名称
+industry,所属行业
+area,地区
+pe,市盈率
+outstanding,流通股本
+totals,总股本(万)
+totalAssets,总资产(万)
+liquidAssets,流动资产
+fixedAssets,固定资产
+reserved,公积金
+reservedPerShare,每股公积金
+eps,每股收益
+bvps,每股净资
+pb,市净率
+timeToMarket,上市日期
+"""
+
 '''
 第一次运行,会报错
 (1170, "BLOB/TEXT column 'code' used in key specification without a key length")
