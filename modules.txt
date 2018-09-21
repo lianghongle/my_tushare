@@ -1,0 +1,7 @@
+pymysql
+lxml
+pandas
+requests
+bs4
+tushare
+sqlalchemy

@@ -8,9 +8,12 @@ DIRECTORY STRUCTURE
 
 ```
 /
-    README.md           readme.md
-    test.py             test文件
+    conf                配置
+    doc                 相关文档
+    test                测试/调试
     venv/               虚拟环境
+    README.md           readme.md
+    modules.txt         需要安装的模块
 ```
 
 ## 虚拟环境
@@ -28,6 +31,7 @@ $ deactivate
 * pip install XXX
 * pip install -r filename
 ```
+sqlalchemy
 bs4
 tushare
 ```
