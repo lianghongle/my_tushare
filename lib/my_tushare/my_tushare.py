@@ -7,13 +7,18 @@ class MyTushare(object):
     __version = '0.1.0'
 
     def run(self):
-        method = sys.argv[1]
+        argv = sys.argv
 
-        if hasattr(self, method):
-            method = getattr(self, method)
-            method()
-        else:
+        if len(argv) <= 1:
             self.help()
+        else:
+            method = sys.argv[1]
+
+            if hasattr(self, method):
+                method = getattr(self, method)
+                method()
+            else:
+                self.help()
 
     def version(self):
         print(self.__version)
